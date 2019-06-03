@@ -5,10 +5,10 @@ from django.contrib.auth.models import User
 class Email(models.Model):
     subject = models.CharField(max_length=255)
     message = models.TextField(max_length=4000)
-    attachment = models.BooleanField()
+    attachment = models.BooleanField(null=True)
     created_at = models.DateTimeField(auto_now_add=True)
-    created_by = models.ForeignKey(User, related_name='sent', on_delete=models.DO_NOTHING)
-    received_by = models.ForeignKey(User, related_name='inbox', on_delete=models.DO_NOTHING)
+    sender = models.ForeignKey(User, related_name='sent', on_delete=models.DO_NOTHING, null=True)
+    receiver = models.ForeignKey(User, related_name='inbox', on_delete=models.DO_NOTHING, null=True)
 
 
 class Attachment(models.Model):
