@@ -16,10 +16,9 @@ Including another URLconf
 from django.conf.urls import url
 from django.contrib import admin
 from django.urls import path, include
+from rest_framework_jwt.views import obtain_jwt_token
 from emails import views
 
 urlpatterns = [
-    path('signin/', views.home),
-    path('admin/', admin.site.urls),
-    url(r'^api-auth/', include('rest_framework.urls')),
+    path('emails/', include('emails.urls'))
 ]
