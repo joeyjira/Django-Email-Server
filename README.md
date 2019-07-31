@@ -5,10 +5,10 @@ This is a mock email server that replicates the functionality of an email server
 This project exists for me to review/learn the several frameworks and technologies listed below (Django, React, AWS). It also serves as a basic reference for me in the future and others that might find it useful to see how these frameworks and technologies go together.
 
 ## Screenshots
-![Screenshot1](./screenshots/ss1.png)
-![Screenshot1](./screenshots/ss2.png)
-![Screenshot1](./screenshots/ss3.png)
-![Screenshot1](./screenshots/ss4.png)
+<img src="./screenshots/ss1.png" width="600" height="350" />
+<img src="./screenshots/ss2.png" width="600" height="350" />
+<img src="./screenshots/ss3.png" width="600" height="350" />
+<img src="./screenshots/ss4.png" width="600" height="350" />
 
 ## Framework/Technologies
 - [Django](https://www.djangoproject.com/)
