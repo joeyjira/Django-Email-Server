@@ -1,6 +1,8 @@
 ## WeMail
 This is a mock email server that replicates the functionality of an email server without setting up an SMTP server. Therefore, the scope of the project is limited to delivering email to accounts created on this server.
 
+The link to the site is [here](http://master.d16zkzf5ymnoc6.amplifyapp.com)
+
 ## Motivation
 This project exists for me to review/learn the several frameworks and technologies listed below (Django, React, AWS). It also serves as a basic reference for me in the future and others that might find it useful to see how these frameworks and technologies go together.
 
